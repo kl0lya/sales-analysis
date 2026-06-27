@@ -13,6 +13,11 @@ This project analyzes global sales data across **50+ countries**, **7 product ca
 
 ---
 
+Full analysis with code and outputs:
+[View in GitHub](sales_analysis.ipynb)
+
+---
+
 ## Key Findings
 
 ### Financial Performance
@@ -22,6 +27,7 @@ This project analyzes global sales data across **50+ countries**, **7 product ca
 - A minority of countries drive the majority of total profit → high **geographic concentration risk**
 
 ![Financial Performance by Product Category](Financial%20Performance%20by%20Product%20Category.png)
+
 *Revenue, cost, and profit broken down by product category — Cosmetics and Household lead by a significant margin.*
 
 ---
@@ -33,9 +39,11 @@ This project analyzes global sales data across **50+ countries**, **7 product ca
 - Top 10 countries account for a disproportionately large share of revenue
 
 ![Total Profit by Region](Total%20Profit%20by%20Region.png)
+
 *Sub-Saharan Africa and Europe outperform all other regions in total profit despite lower order volumes.*
 
 ![Top 7 Countries by Profit](Top%207%20Countries%20by%20Profit.png)
+
 *Profit is highly concentrated — the top 7 countries represent the majority of global earnings.*
 
 ---
@@ -55,6 +63,7 @@ This project analyzes global sales data across **50+ countries**, **7 product ca
 - Delivery time optimization alone is unlikely to improve financial outcomes
 
 ![Profit vs Delivery Time](Profit%20vs%20Delivery%20time.png)
+
 *Scatter plot with regression line shows no meaningful relationship between delivery speed and profit — investing in faster shipping is unlikely to move the needle.*
 
 ---
@@ -66,6 +75,7 @@ This project analyzes global sales data across **50+ countries**, **7 product ca
 - Most categories are **stable across weekdays** — orders follow business cycles rather than consumer impulse
 
 ![Weekly Sales Seasonality by Category](Weekly%20Sales%20Seasonality%20by%20Category.png)
+
 *Day-of-week breakdown by category — demand is largely flat across weekdays, indicating B2B-style purchasing behavior.*
 
 ---
